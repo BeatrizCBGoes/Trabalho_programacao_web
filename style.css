@@ -1,0 +1,58 @@
+* {
+    /*fonte, tamaho, cor e dos textos mostrados e cor de fundo */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(254,227,234,255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:30px;
+    text-align: center;
+    color: #000000;
+}
+
+
+body {
+    /*imagem de fundo repetindo com width e height para ajustar a imagem na tela*/
+    width: 100vw;
+    height: 140vh;
+    background-image: url(inicio.jpg) ;
+    background-repeat: repeat-x;
+    background-position: center;    
+}
+ul {
+    text-align: center;
+    margin: 0;
+    padding:70px;
+}
+
+li {
+    /*como é mostrada a lista*/
+    list-style: none; 
+    margin: 10px;
+    display: inline;
+}
+li a {
+    /*estilização dos "botões" dos links*/
+    padding: 5px 10px; 
+    margin:0;
+    border: 3px solid rgb(121, 55, 141); 
+    background: rgb(155, 127, 182);
+    text-decoration: none;
+    border-radius:5px;
+}
+li a:hover {
+    /*estilização dos links quando passa o mouse por cima*/
+    background: rgb(121, 55, 141);
+    border-color: rgb(155, 127, 182);
+    color: white;
+    
+}
+button { 
+    /* estilização do botão utilizado no formulário da aba "contato" */
+    padding: 5px 10px; 
+    margin:0;
+    border: 3px solid rgb(121, 55, 141); 
+    background: rgb(155, 127, 182);
+    text-decoration: none;
+    border-radius:5px;
+}
